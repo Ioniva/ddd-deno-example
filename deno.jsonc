@@ -1,0 +1,8 @@
+{
+  "name": "ddd-deno-example",
+  "version": "0.1.0",
+  "description": "Aplication example applying the code best practices.",
+  "tasks": {
+    "dev": "deno run --watch --allow-env --allow-read=src/ --allow-net=0.0.0.0:4000,127.0.0.1:5432,deno.land src/api/server.ts"
+  }
+}
