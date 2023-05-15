@@ -37,6 +37,7 @@ In addition, the following software design patterns and principles are applied i
 - **Value Object** (software design pattern): It is used to represent immutable values in the system and can be useful for improving modularity, code reuse, and code understanding.
 - **Named Constructor** (design pattern): It is a pattern used in object-oriented programming languages. It consists of using class methods with descriptive names to create objects instead of using the default constructor. This allows greater clarity and control in object creation.
 - **Repository pattern** (design pattern): It is a pattern used to separate data access logic from business logic. It consists of a class or set of classes that encapsulate data persistence operations in an abstraction layer, allowing business logic to operate with domain objects without having to worry about the details of data storage and retrieval.
+- **Data Transfer Object** (design pattern): It is used to transfer data between different components or layers of the system. It is an object that contains only the relevant data that needs to be transmitted and does not contain business logic.
 
 ## Endpoints
 
