@@ -39,6 +39,17 @@ In addition, the following software design patterns and principles are applied i
 - **Repository pattern** (design pattern): It is a pattern used to separate data access logic from business logic. It consists of a class or set of classes that encapsulate data persistence operations in an abstraction layer, allowing business logic to operate with domain objects without having to worry about the details of data storage and retrieval.
 - **Data Transfer Object** (design pattern): It is used to transfer data between different components or layers of the system. It is an object that contains only the relevant data that needs to be transmitted and does not contain business logic.
 
+## Testing
+
+- **ObjectMother** (design pattern): Is used in testing to create and provide pre-configured objects for use in unit tests. It allows for the easy creation of test objects with predefined properties and values, reducing duplication and making tests more readable and maintainable..
+- **Fake Mock**: Is a type of test where fake objects are used instead of real dependencies.
+    
+    *for example*: 
+
+    Instead of using a real database or external system for user data, you would use the InMemoryUserRepository as a fake object. 
+    
+    By using the InMemoryUserRepository as a fake mock in your tests, you can ensure that your test cases are isolated, controlled, and predictable.
+
 ## Endpoints
 
 Below are the endpoints available in this version of the project:

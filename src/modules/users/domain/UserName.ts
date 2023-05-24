@@ -7,7 +7,6 @@ export default class UserName extends StringValueObject {
   }
 
   private ensureLengthIsLessThan250Characters(value: string): void {
-    console.log("Checking length of " + value);
     if (value.length > 250) {
       throw new Error(`The BankName <${value}> has more than 250 characters`);
     }

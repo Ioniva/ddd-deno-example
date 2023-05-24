@@ -29,6 +29,7 @@ export default class PostgreUsersRepository extends PostgreRepository implements
       }
     );
   }
+
   getById(_id: UserId): Promise<User> {
     throw new Error("Method not implemented.");
   }

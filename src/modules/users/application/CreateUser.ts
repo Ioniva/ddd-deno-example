@@ -9,6 +9,7 @@ export default class CreateUser {
     this.userRepository = dependencies.userRepository;
   }
 
+  // todo: recive a dto instead args...
   public async run(
     name: string,
     surname: string,
